@@ -19,6 +19,15 @@ var UserSchema = new Schema({
     }],
     default: ['active']
   },
+  pw: {
+    type: String
+  },
+  role: {
+    type: [{
+      type: String,
+      enum: ['user', 'admin']
+    }]
+  },
   Api_key: {
     type: String,
   }

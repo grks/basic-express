@@ -16,6 +16,7 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
+    "basic-auth": "^1.1.0",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "express-acl": "^1.0.3",

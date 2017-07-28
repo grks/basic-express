@@ -9,8 +9,7 @@ exports.list_all_users = function(req, res) {
 };
 
 exports.createToken = function(req, res) {
-  console.log('req', req);
-  res.json({ok:1});
+  res.json({o:1});
 }
 
 exports.create_user = function(req, res) {

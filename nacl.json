@@ -7,7 +7,7 @@
   }]
 },
  {
-   "group": "user",
+   "group": "anonymous",
    "permissions": [{
      "resource": "token",
      "methods": [
